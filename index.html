@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tourist Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+      .center{
+        width: 100%;
+        /* height: 100vh; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        background-color: #eeeeee;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        background-image: url(/IMAGES/img4.jpg);
+ 
+          
+
+      }
+ 
+    </style>
+  </head>
+  <body>
+    <!-- header section -->
+    <header>
+      <div class="top-header bg-dark">
+        <div class="container">
+          <div class="top-nav">
+            <ul>
+              <li><i class="fas fa-phone"></i> +123456789</li>
+              <li><i class="fa fa-envelope"></i> abc@gmail.com</li>
+            </ul>
+            <ul>
+              <li>
+                <a href="http://"
+                  ><i class="fa fa-user"></i>
+                  Login/Signup
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg sticky-top">
+          <a class="navbar-brand" href="#"
+            >Niki's <span class="color-primary">Travels</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#basicExampleNav"
+            aria-controls="basicExampleNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="basicExampleNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="destination.html " target="_blank">Destination</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html" target="_blank">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- corosel -->
+    <section id="banner">
+      <div class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./IMAGES/img-min.jpg" class="d-block w-100" />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="container">
+                <h1 style="font-size: 60px" >
+                  It's Time To Adventure
+                </h1>
+                <span><i class="fa fa-play"></i>Take a Tour</span>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./IMAGES/img6-min.jpg" class="d-block w-100" height="500px" />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="container">
+                <h1 style="font-size: 60px">
+                  It's Time To Adventure
+                </h1>
+                <span><i class="fa fa-play"></i>Take a Tour</span>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./IMAGES/img7-min.jpg" class="d-block w-100" height="500px" />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="container">
+                <h1 style="font-size: 60px" >
+                  It's Time To Adventure
+                </h1>
+                <span><i class="fa fa-play"></i>Take a Tour</span>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./IMAGES/img1-min.jpg" class="d-block w-100" height="500px" />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="container">
+                <h1 style="font-size: 60px">
+                  It's Time To Adventure
+                </h1>
+                <span><i class="fa fa-play"></i>Take a Tour</span>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./IMAGES/img5-min.jpg" class="d-block w-100" height="500px" />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="container">
+                <h1 style="font-size: 60px">
+                  It's Time To Adventure
+                </h1>
+                <span><i class="fa fa-play"></i>Take a Tour</span>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./IMAGES/img10-min.jpg" class="d-block w-100" height="500px" />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="container">
+                <h1 style="font-size: 60px" >
+                  It's Time To Adventure
+                </h1>
+                <span><i class="fa fa-play"></i>Take a Tour</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- search option -->
+    <section id="search">
+      <div class="container">
+        <div class="search-option">
+          <div class="item">
+            <h5 class="h5 color-primary">Where</h5>
+
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Your Destination"
+            />
+          </div>
+          <div class="item">
+            <h5 class="h5">Date</h5>
+            <input type="date" class="form-control" placeholder="Select Date" />
+          </div>
+          <div class="item">
+            <h5 class="h5">Guests</h5>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Total person"
+            />
+          </div>
+          <div class="item">
+            <button class="btn btn-theme">
+              <i class="fa fa-search"></i>Check Availability
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- featured section -->
+    <section id="featured">
+      <div class="container">
+        <div class="title">
+          <h4 class="title-primary">Perfect Holiday</h4>
+          <h1 class="h1 h1-responsive title-secondary">Featured Places</h1>
+        </div>
+      </div>
+    </section>
+    <section id="card">
+      <div class="row">
+        <div class="card1" style="width: 18rem">
+          <img
+            src="./IMAGES/pexels-aleksandar-pasaric-1285625-min.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Mountains</h5>
+
+            <a href="#" class="btn btn-outline-info">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card2" style="width: 18rem">
+          <img
+            src="./IMAGES/pexels-roman-odintsov-4552990-min.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Hills Stations</h5>
+
+            <a href="#" class="btn btn-outline-warning">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card3" style="width: 18rem">
+          <img
+            src="./IMAGES/pexels-andrea-piacquadio-722014-min.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Historical Places</h5>
+
+            <a href="#" class="btn btn-outline-info">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card1" style="width: 18rem">
+          <img
+            src="./IMAGES/pexels-flo-dahm-699466-min.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Ifil Tower</h5>
+
+            <a href="#" class="btn btn-outline-warning">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="card1">
+      <div class="row">
+        <div class="card1" style="width: 18rem">
+          <img
+            src="./IMAGES/pexels-asad-photo-maldives-3426870-min.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Beaches</h5>
+
+            <a href="#" class="btn btn-outline-info">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card2" style="width: 18rem">
+          <img
+            src="./IMAGES/pexels-james-wheeler-414612-min.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Sea View</h5>
+
+            <a href="#" class="btn btn-outline-warning">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card3" style="width: 18rem">
+          <img
+            src="./IMAGES/pexels-josh-hild-2438779-min.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Forts</h5>
+
+            <a href="#" class="btn btn-outline-info">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card1" style="width: 18rem">
+          <img
+            src="./IMAGES/pexels-coke'lat-_brown_-senior-837745-min.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Mountains</h5>
+
+            <a href="#" class="btn btn-outline-warning">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="center">
+    <div class="container">
+            <h2 >Perfect Holiday Places</h2>
+            <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="./IMAGES/slider1-min.jpg" class="d-block w-100" height="100px" width="200px"/>
+                      
+              </div>
+              <div class="col-md-4">
+                <img src="./IMAGES/slider3-min.jpg" class="d-block w-100" height="100px"width="200px" />
+              </div>
+              <div class="col-md-4">
+                <img src="./IMAGES/slider4-min.jpg" class="d-block w-100" height="100px"width="200px" />
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="./IMAGES/pexels-m-venter-1659438-min.jpg" class="d-block w-100" height="100px"width="200px" />
+              </div>
+              <div class="col-md-4">
+                <img src="./IMAGES/pexels-james-wheeler-414612-min.jpg" class="d-block w-100" height="100px"width="200px" />
+              </div>
+              <div class="col-md-4">
+                <img src="./IMAGES/img5-min.jpg" class="d-block w-100" height="100px"width="200px" />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="./IMAGES/img8-min.jpg" class="d-block w-100" height="100px"width="200px" />
+              </div>
+              <div class="col-md-4">
+                <img src="./IMAGES/img10-min.jpg" class="d-block w-100" height="100px"width="200px" />
+              </div>
+              <div class="col-md-4">
+                <img src="./IMAGES/img7-min.jpg" class="d-block w-100" height="100px"width="200px" />
+              </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </div>
+    <section id="services">
+<div class="services">
+  <div class="container">
+<div class="row">
+    <div class="col-lg-4">
+      <div class="cards-design">
+<i class="fa-solid fa-location-dot"></i>
+<h4 class="h4">Handpicked Hotels</h4>
+        <p>
+Planning to travel anytime soon? Subscribe to my email list for exclusive travel tips, hacks, and other resources to save time and money!.</p>
+            <a href="#"  class="btn btn-warning">Read More</a>
+      </div>
+    </div>
+        <div class="col-lg-4">
+                <div class="cards-design">
+<i class="fa-solid fa-earth-asia"></i><h4 class="h4">World Class Services</h4>
+        <p>There’s a sunrise and a sunset every single day, and they’re absolutely free. Don’t miss so many of them.Take only memories, leave only footprints</p>
+            <a href="#" class="btn btn-warning">Read More</a>
+      </div>
+        </div>
+    <div class="col-lg-4">
+            <div class="cards-design">
+<i class="fa fa-coins"></i>
+<h4 class="h4">Best price Guarantee</h4>
+        <p>You have brains in your head. Feet in your shoes. You can steer yourself any direction you choose. You’re on your own. And you know what you know.….</p>
+            <a href="#" class="btn btn-warning">Read More</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+  </div>
+  
+
+    </section>
+<section class="section-subscribe bg-light">
+<div class="container">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-md-12 mb-4">
+      <h1 class="heading">
+        Get your location &amp;updates
+      </h1>
+    </div>
+        <div class="col-md-12">
+     <form action="">
+     <div class="row">
+      <div class="col-md-4 mb-4">
+        
+        <input type="text" class="form-control" placeholder="your place here">
+      </div>
+      <div class="col-md-4 mb-4">
+        <input type="email" class="form-control" placeholder="your location here">
+      </div>
+      <div class="col-md-4 mb-4">
+        <input type="submit" class="btn btn-secondary w-100" value="Search">
+      </div>
+    </div>
+     </form>
+    </div>
+
+  </div>
+</div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-md-3 mb-4">
+       <h2>About us</h2>
+       <p>“A journey of a thousand miles begins with a single step”,do not follow where the path may lead. Go instead where there is no path and leave a trail</p>
+       <p><a href="#">Click here to learn more</a></p>
+      </div>
+      <div class="col-md-3 mb-4">
+       <h2>Contact &amp; Address</h2>
+       <ul class="list-unstyled footer-link">
+       <li class="d-flex">
+        <span class="me-3">Address:</span>
+        <span class="text-white">28 XYZ Avenue ,Pune,India</span>
+        </li>
+        <li class="d-flex">
+        <span class="me-3">Telephone:</span>
+        <span class="text-white">+91-72250-8542</span>
+        </li>
+        <li class="d-flex">
+        <span class="me-3">Email:</span>
+        <span class="text-white">abc123@gmail.com</span>
+        </li>
+       </ul>
+      </div>
+      <div class="col-md-3 mb-4">
+        <h2>Quick Links</h2>
+        <ul class="list-unstyled footer-link">
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Our Location</a></li>
+          <li><a href="#">Blog article</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h2>Our Social Media</h2>
+        <ul class="list-unstyled footer-link d-flex footer-social">
+     <li><a href="#"><span class="fa-brands fa-facebook"></span></a></li>
+     <li><a href="#"><span class="fa-brands fa-twitter"></span></a></li>
+     <li><a href="#"><span class="fa-brands fa-instagram"></span></a></li>
+     <li><a href="#"><span class="fa-brands fa-linkedin"></span></a></li>
+     <li><a href="#"><span class="fa-brands fa-youtube"></span></a></li>
+       </ul>
+      </div>
+    </div>
+<div class="row">
+  <div class="col-12 text-md-center text-left">
+    <p>..............Traveling is the <i style="color: red;" class="fa-solid fa-heart"></i> Best way for Refresment.................</p>
+  </div>
+</div>
+
+
+  </div>
+
+
+
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js
+"></script>
+<script src="/script.js"></script>
+    <script>
+      var myswiper = new Swiper("#banner.carousel", {
+        loop: true,
+        autoplay: true,
+      });
+      var myswiper = new Swiper("#showcase.carousel", {
+        loop: true,
+        slidesPerView: 3,
+      });
+    </script>
+  </body>
+</html>

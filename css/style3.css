@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background-image: url(/IMAGES/img2-min.jpg); */
+  background-color: rgb(59, 55, 55);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  font-size: 60px;
+  color: white;
+  margin-top: 250px;
+}
+p {
+  font-size: 18px;
+  color: white;
+  letter-spacing: 1px;
+}
+h3 {
+  font-size: 25px;
+  color: white;
+  margin-top: 20px;
+}
+.fa-solid {
+  font-size: 35px;
+  color: white;
+  float: right;
+  margin-top: 20px;
+}
+.col-md-5 {
+  margin-top: 80px;
+  box-shadow: -1px 1px 60px 10px black;
+  background: rgba(0, 0, 0, 0.4);
+}
+.label {
+  font-weight: normal;
+  margin-top: 10px;
+  color: white;
+  font-size: 19px;
+}
+.form-control {
+  background: transparent;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid white;
+  font-size: 18px;
+  margin-top: 15px;
+  height: 40px;
+  color: white;
+}
+input[type="checkbox"] {
+  margin-top: 15px;
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+}
+small {
+  font-size: 18px;
+  color: white;
+}
+input[type="radio"] {
+  margin-top: 20px;
+}
+option {
+  color: gray;
+}
+.btn-info {
+  margin-top: 20px;
+  font-size: 18px;
+  width: 120px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+.btn-warning {
+  margin-top: 20px;
+  font-size: 18px;
+  width: 120px;
+  margin-bottom: 20px;
+}
